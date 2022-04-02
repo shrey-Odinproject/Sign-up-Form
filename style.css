@@ -1,0 +1,14 @@
+body{
+    display: flex;
+    height: 720px;
+    flex-direction: row;
+    align-items: stretch;
+}
+.left{
+    width: 30%;
+    background-image: url('background_img.avif');
+}
+.right{
+    width: 70%;
+    background-color: powderblue;
+}
