@@ -8,7 +8,7 @@ body{
 }
 .left{
     width: 30%;
-    background-image: url('background_img.avif');
+    background-image: url('images/background_img.avif');
 }
 
 .logobox{
@@ -100,7 +100,6 @@ a{
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
-    width: 600px;
 }
 .top>p{
     font-weight: bold;
