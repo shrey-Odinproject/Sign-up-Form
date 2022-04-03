@@ -8,10 +8,6 @@ body{
     width: 30%;
     background-image: url('background_img.avif');
 }
-.right{
-    width: 70%;
-    background-color: powderblue;
-}
 
 .logobox{
     height: 150px;
@@ -27,4 +23,63 @@ body{
     color: white;
     font-size: 80px;
     margin-top: 5%;
+}
+
+.right{
+    width: 70%;
+    background-color: powderblue;
+    display: flex;
+    flex-direction: column;
+}
+.right>div{
+    flex:1;
+}
+
+button{
+    background-color: #596d48;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 8px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+input{
+    border: #e5e7eb;
+}
+
+label{
+    font-size: x-small;
+}
+li{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+ul{
+display: flex;
+flex-flow: row wrap;
+width: 500px;
+justify-content: space-between;
+}
+
+h2,.bottom,.top{
+    margin-left: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a{
+    color: #596d48;
+}
+
+.bottom>p{
+    font-size: 14px;
+}
+.top{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+.top>p{
+    font-weight: bold;
 }
