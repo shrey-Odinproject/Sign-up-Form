@@ -31,36 +31,42 @@
             <form action="#" method="post">
                 <h2>Let's do this!</h2>
                 <ul>
-                    <li>
-                        <label for="firstname">FIRST NAME</label>
-                        <input type="text" id="firstname" placeholder=" ">
-                    </li>
+                    <div>
+                        <li>
+                            <label for="firstname">FIRST NAME</label>
+                            <input type="text" id="firstname" placeholder=" ">
+                        </li>
+    
+                        <li>
+    
+                            <label for="lastname">LAST NAME</label>
+                            <input type="text" id="lastname" placeholder=" ">
+                    
+                        </li>
+                    </div>
+                    <div>
+                        <li>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" placeholder=" ">
+                        </li>
+    
+                        <li>
+                            <label for="phonenumber">PHONE NUMBER</label>
+                            <input type="tel" id="phonenumber" pattern="(\d{5}[\-]\d{5})" placeholder="123345-67890">
+                        </li>
+                    </div>
+                    
+                    <div>
+                        <li>
 
-                    <li>
-
-                        <label for="lastname">LAST NAME</label>
-                        <input type="text" id="lastname" placeholder=" ">
-                
-                    </li>
-
-                    <li>
-                        <label for="email">EMAIL</label>
-                        <input type="email" id="email" placeholder=" ">
-                    </li>
-
-                    <li>
-                        <label for="phonenumber">PHONE NUMBER</label>
-                        <input type="tel" id="phonenumber" pattern="(\d{5}[\-]\d{5})" placeholder="123345-67890">
-                    </li>
-                    <li>
-
-                        <label for="password">PASSWORD</label>
-                        <input type="password" id="password" class="error" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" placeholder=" ">
-                    </li>
-                    <li>
-                        <label for="confirmpassword">CONFIRM PASSWORD</label>
-                        <input type="password" id="confirmpassword" class="error" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" placeholder=" ">
-                    </li>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" class="error" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" placeholder=" ">
+                        </li>
+                        <li>
+                            <label for="confirmpassword">CONFIRM PASSWORD</label>
+                            <input type="password" id="confirmpassword" class="error" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{6,}" placeholder=" ">
+                        </li>
+                    </div>
                 </ul>   
             </form>
         </div>

@@ -79,9 +79,12 @@ li{
 }
 ul{
 display: flex;
-flex-flow: row wrap;
-width: 500px;
+flex-flow: column wrap;
 justify-content: space-between;
+}
+ul div{
+    display: flex;
+    gap: 30px;
 }
 
 h2,.bottom,.top{
