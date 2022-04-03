@@ -1,8 +1,10 @@
 body{
     display: flex;
-    height: 720px;
+    height: 741px;
     flex-direction: row;
     align-items: stretch;
+    margin: 0;
+    padding: 0;
 }
 .left{
     width: 30%;
@@ -47,9 +49,28 @@ button{
 input{
     border: #e5e7eb;
 }
+input:focus{
+    outline: 1px solid blue;
+    box-shadow:0 0 4px grey;
+}
+input:invalid{
+    outline: 1px solid red;
+    box-shadow:0 0 4px grey;
+}
+input:valid{
+    outline: none;
+    border: 1px solid chartreuse;
+    box-shadow:0 0 4px chartreuse;
+}
+input:placeholder-shown {
+    outline: none;
+    border: none; /* only if the input is empty */
+    box-shadow: none;
+}
 
 label{
     font-size: x-small;
+    color: gray;
 }
 li{
     display: flex;
@@ -79,7 +100,10 @@ a{
     display: flex;
     flex-flow: column nowrap;
     justify-content: flex-end;
+    width: 600px;
 }
 .top>p{
     font-weight: bold;
 }
+
+
